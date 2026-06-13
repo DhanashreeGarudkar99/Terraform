@@ -1,0 +1,17 @@
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Include tfvars files if you store secrets or sensitive data
+*.tfvars
+*.tfvars.json
+
+
+# Dependency lock file (optional — ignore if you don’t want to commit it)
+.terraform.lock.hcl
+
+#documentation files
+*.docx
